@@ -1,0 +1,28 @@
+. fns_EDIT
+. fns_DIRS
+
+# branch 1
+B1=g_1
+B1=g1
+# branch some_bug_fix
+B2=g_some_bug_fix
+B2=reorganise-after-removing-react
+B2=g2
+
+# not yet onto -b $branch
+  user_at=""
+  project=YEAR_src_PLAY
+
+  gitsite_dom=github.com
+  user_at=""
+  project=A_FILE_ARCHIVE
+  user=gps67
+  user_at=${user}@
+
+  URL1=https://${user_at}${gitsite_dom}/${user}/${project}
+
+# this works # not sure if it a good idea tho
+export GIT_ASKPASS=GIT_ASKPASS
+
+pass_time=36000
+export pass_time
