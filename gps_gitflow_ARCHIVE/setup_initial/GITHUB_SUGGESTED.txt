@@ -1,0 +1,21 @@
+exit
+
+	githum create new repository suggested:
+
+…or create a new repository on the command line
+ and then send NEW to github
+
+echo "# A_FILE_ARCHIVE" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:gps67/A_FILE_ARCHIVE.git
+git push -u origin master
+
+echo "# A_FILE_ARCHIVE" >> README.md
+
+git remote add origin git@github.com:gps67/A_FILE_ARCHIVE.git
+git push -u origin master
+
+…or import code from another repository
+
